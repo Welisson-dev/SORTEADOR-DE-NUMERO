@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERADOR DE NUMERO</title>
+    <link rel = "stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <img src="logo.png" alt="Logo">
+
+    <h2>Sortear um Número</h2>
+
+    <div class="container">
+        <input type="number" class="input-min" placeholder="entre">
+        <input type="number" class="input-max" placeholder="e">
+    </div>
+    
+    <button class="botao" onclick="generateNumber()">Sortear</button>
+
+    <div class="resultado" id="resultado"></div>
+     
+    
+</body>
+
+<script src="math.js"></script>
+
+</html>
